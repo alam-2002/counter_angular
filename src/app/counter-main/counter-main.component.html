@@ -1,0 +1,22 @@
+<h1 class="heading">1. Counter App with Different Different Functions</h1>
+
+<div style="text-align: center;">
+    <h2 class="count">{{count}}</h2>
+
+    <div>
+        <button class="button bg-green" (click)="incrementCount()">Increment</button>
+        <button class="button bg-black" (click)="resetCount()">Reset</button>
+        <button class="button bg-red" (click)="decrementCount()">Decrement</button>
+    </div>
+</div>
+
+<h1 class="heading">2. Counter App with Single Functions</h1>
+<div style="text-align: center;">
+    <h2 class="count">{{count2}}</h2>
+
+    <div>
+        <button class="button bg-green" (click)="handelCounter('plus')">Increment</button>
+        <button class="button bg-black" (click)="handelCounter('reset')">Reset</button>
+        <button class="button bg-red" (click)="handelCounter('minus')">Decrement</button>
+    </div>
+</div>
